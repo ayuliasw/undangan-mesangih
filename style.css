@@ -1,5 +1,4 @@
 body {
-    background-color: #DFDBCF;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin: 0;
@@ -15,7 +14,7 @@ body {
     align-items: center;
     position: relative;
     padding: 40px 20px;
-    background-color: #DFDBCF;
+    background-color: #DFDBCF !important;
     background-image: url('images/daun-cover.png'); 
     background-size: cover; /* Agar gambar penuh */
     background-position: top left; /* Atur posisi */
@@ -91,7 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch; /* Biarkan section mengisi seluruh lebar */
-    background-color: #F2F1EC;
+    background-color: #F2F1EC !important;
     position: relative;
     z-index: 1; /* Pastikan teks ada di atas */
     opacity: 0;
@@ -198,6 +197,8 @@ body {
     transition: background-color 0.3s ease;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-weight: normal;
+    font-family: inherit;
 }
 
 .btn-map:hover {
@@ -262,6 +263,8 @@ body {
     cursor: pointer;
     transition: background 0.3s ease-in-out;
     margin-top: 20px;
+    font-weight: normal;
+    font-family: inherit;
 }
 
 .btn-rsvp:hover {
@@ -368,4 +371,3 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
-
